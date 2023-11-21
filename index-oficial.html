@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, user-scalable=no">
+        <title>DiputadosAR</title>
+        <link rel="shortcut icon" href="https://app.hcdn.gob.ar/assets/img/favicon.ico">
+        <link rel="stylesheet" href="https://app.hcdn.gob.ar/assets/css/base_2.css?v20221002">
+        <link rel="stylesheet" href="https://parlamentaria.hcdn.gob.ar/public/css/app.css?v20221002">
+        <link rel="stylesheet" href="https://parlamentaria.hcdn.gob.ar/public/css/hcdn-input-box.css?v20221002">
+        <link rel="stylesheet" href="https://parlamentaria.hcdn.gob.ar/public/css/tooltip.css?v20221002">
+        <style>
+            .hemiciclo {
+                cursor: pointer!important;
+            }
+            
+            .hemiciclo-container {
+                position: absolute;
+                width: 100%;
+                padding: 1rem;
+                top: 0;
+                left: 0;
+            }
+            
+            .hemiciclo-container > .composicion {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                padding-inline: 30px; grid-gap: 10px;
+            }
+            
+            .hemiciclo-container > .composicion .data-composicion {
+                display: grid;
+                line-height: 1;
+                grid-template-columns: auto auto 1fr;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+            
+            .hemiciclo-container > .hemiciclo-actions {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+            }
+            
+            .hemiciclo-container > .hemiciclo-actions > .vista-hemiciclo {
+                border-radius: 5px;
+                border: 0;
+                background: #6c97bd;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+                font-size: 15px;
+                padding: 10px 15px;
+                width: 160px;
+            }
+            
+            .hemiciclo-container > .hemiciclo-actions > .vista-hemiciclo.active {
+                background: #486c8c;
+            }
+            
+            .butaca_circle_div.hcdn-asiento-hemiciclo {
+                background: #a9a9a9;
+            }
+            
+            @media (max-width: 700px) {
+                .hemiciclo-container > .composicion {
+                    grid-template-columns: 1fr;
+                }
+            
+                .hemiciclo-container > .hemiciclo-actions > .vista-hemiciclo {
+                    width: 120px;
+                    font-size: 12px;
+                }
+            
+                .hemiciclo-container > .composicion {
+                    padding-inline: 10px; }
+            
+                .hemiciclo-container > .composicion .data-composicion {
+                    font-size: 12px;
+                }
+            
+                .hemiciclo-container > .composicion .data-composicion > div:first-of-type {
+                    width: 30px!important;
+                }
+            }
+            
+            /*=======================TOOLTIP=======================*/
+            .diputado-tooltip {
+                width: 300px;
+                height: 135px;
+                display: none;
+                grid-template-columns: 1fr 2fr;
+                grid-template-rows: 1fr;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                position: absolute;
+                background-color: #FFF;
+                z-index: 9999;
+                top: 0px;
+                left: 0px;
+                border-radius: 15px;
+                padding: 10px;
+                column-gap: 10px;
+                box-shadow: 0 0px 6px rgb(0 0 0 / 30%);
+            }
+            
+            .diputado-tooltip > .diputado-tooltip-img {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            
+            .diputado-tooltip > .diputado-tooltip-img > img {
+                border-radius: 50%;
+                border-width: 5px !important;
+                max-width: 100%;
+                max-height: 100%;
+                height: auto;
+                width: auto;
+            }
+            
+            .diputado-tooltip > .diputado-tooltip-info {
+                height: 100%;
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: auto auto;
+                align-items: center;
+            }
+            
+            .diputado-tooltip > .diputado-tooltip-info > h5 {
+                margin: 0px;
+                padding: 3px;
+                font-weight: bold;
+            }
+            
+            .diputado-tooltip > .diputado-tooltip-info > span {
+                margin: 0px;
+                padding: 3px;
+                font-weight: lighter;
+            }
+            
+            .diputado-tooltip > .diputado-tooltip-info > div > h6 {
+                margin: 0px;
+                padding: 3px;
+                font-weight: lighter;
+            }
+            
+            .diputado-tooltip .separador {
+                width: 100%;
+                height: 2px;
+                background: #d8d8d8;
+                margin-top: 5px;
+            }
+            
+            foreignObject {
+                font-size: 11px;
+                color: #fff;
+            }
+            
+            .data.show {
+                display: none !important;
+            }
+            </style>
+        <script>
+            const BASE_URL = 'https://parlamentaria.hcdn.gob.ar';
+            const ENTORNO = 'produccion';
+            const SENTRY_NOOP = false;
+            const CENTRALASSETS_URL = 'https://app.hcdn.gob.ar/assets';
+            const DEBUG = false;
+            const APP_VERSION = 'v20221002';
+            const IS_USER_LOGGED = false;
+            const TEMPLATE_NAME_BASE = '';
+        </script>
+    </head>
+    <body class="entorno--produccion">
+        <div class="hemiciclo-container">
+            <div class="hemiciclo-actions">
+                <button class="vista-hemiciclo active" id="btn-diputados" onclick="HCDN.state.toggleVistaHemiciclo('Diputados');">Diputadas/Diputados</button>
+                <button class="vista-hemiciclo" id="btn-bloques" onclick="HCDN.state.toggleVistaHemiciclo('Bloques');">Bloques/Interbloques</button>
+            </div>
+            <div id="hemiciclo" class="hemiciclo"></div>
+            <div id="composicion" class="composicion">
+                <div id="composicion1"></div>
+                <div id="composicion2"></div>
+            </div>
+        </div>
+        <script src="https://app.hcdn.gob.ar/assets/js/base_2.js?v20221002"></script>
+        <script src="https://parlamentaria.hcdn.gob.ar/public/js/app.js?v20221002"></script>
+        <script src="https://parlamentaria.hcdn.gob.ar/public/libs/hemicicloHCDN_2/hemicicloHCDN.min.js"></script>
+        <script src="bancas.js"></script>
+        <script>
+            HCDN.state = new function() {
+                const state = this;
+                state.fotos = [];
+
+                state.hemicicloCargado = false;
+                state.hemiciclo = {};
+                state.butacas = new Array(256);
+                state.vista = 'diputados';
+                state.tooltip = null;
+
+                bancas.forEach(diputado=>{
+                    state.butacas[diputado.BANCA] = diputado;
+                }
+                );
+
+                const renderBanca = (dom,el,i)=>{
+                    dom.innerHTML = '';
+                    let color = '#a9a9a9';
+                    if (el) {
+                        if (el.hasOwnProperty('ID_INTERBLOQUE') && el.ID_INTERBLOQUE) {
+                            color = el.INTERBLOQUE_COLOR;
+                        } else
+                            color = (el.hasOwnProperty('BLOQUE_COLOR')) ? el.BLOQUE_COLOR : color;
+                    }
+                    dom.setAttribute('style', `border: 2px solid ${color}; width: 25px; height: 25px; border-radius: 100%; box-sizing: content-box; justify-content: center; align-items: center; display: flex;`)
+
+                    if (i == 257 || !el) {
+                        dom.innerText = i;
+                        return;
+                    }
+
+                    if (el) {
+                        if (state.vista == 'diputados') {
+                            let foto = state.fotos[`${el.CUIL}`];
+                            let image = document.createElement("img");
+                            if (foto) {
+                                image.setAttribute("src", foto);
+                            } else {
+                                image.setAttribute("src", `https://parlamentaria.hcdn.gob.ar/api/v2/fotos/autoridades/${el.CUIL}?size=small`);
+                            }
+                            image.setAttribute("style", 'width: 25px; height: 25px; object-fit: cover; border-radius: 100%;');
+                            dom.append(image);
+                        } else {
+                            dom.style.backgroundColor = color;
+                            dom.innerText = i;
+                        }
+
+                        dom.setAttribute("id", `butaca-idautoridad-${el.ID_AUTORIDAD}`);
+
+                        dom.setAttribute("onmouseover", `HCDN.state.abrirTooltip(${el.ID_AUTORIDAD},event)`);
+                        dom.setAttribute("onmouseleave", `HCDN.state.cerrarTooltip(${el.ID_AUTORIDAD},event)`);
+
+                    }
+                }
+                ;
+
+                const descargarFotosDiputados = ()=>{
+                    return new Promise((resolve,reject)=>{
+                        try {
+                            let zip = new JSZip();
+                            JSZipUtils.getBinaryContent(`https://parlamentaria.hcdn.gob.ar/api/v2/fotos/autoridades/obtenerZipTablero`, (err,data)=>{
+                                if (err)
+                                    return resolve(true);
+
+                                try {
+                                    zip.loadAsync(data).then(zip=>{
+                                        let promises = [];
+                                        zip.forEach((relativePath,file)=>{
+                                            const promise = file.async("base64").then(data=>saveImage(data, file));
+                                            promises.push(promise);
+                                        }
+                                        );
+                                        Promise.all(promises).then(data=>resolve(true));
+                                    }
+                                    );
+                                } catch (e) {
+                                    return resolve(true);
+                                }
+                            }
+                            );
+                        } catch (e) {
+                            return resolve(true);
+                        }
+                    }
+                    )
+                }
+
+                const saveImage = (blob,file)=>{
+                    let img = new Image(200,200);
+                    img.id = file.name.substring(0, file.name.lastIndexOf("_"));
+                    state.fotos[img.id] = `data:image/jpeg;base64,${blob}`;
+                }
+
+                const actualizarHemiciclo = ()=>{
+                    state.hemiciclo.updateData(state.butacas, renderBanca, ()=>{
+                    }
+                    );
+
+                }
+
+                state.toggleVistaHemiciclo = (tipo)=>{
+                    if (state.hemicicloCargado == false)
+                        return;
+                    if (tipo == 'Diputados') {
+                        state.vista = 'diputados';
+                        document.getElementById('btn-diputados').classList.add('active');
+                        document.getElementById('btn-bloques').classList.remove('active');
+                    } else {
+                        state.vista = 'bloques';
+                        document.getElementById('btn-diputados').classList.remove('active');
+                        document.getElementById('btn-bloques').classList.add('active');
+                    }
+                    actualizarHemiciclo();
+                }
+
+                const insertarTooltip = ()=>{
+                    let tooltip = document.createElement("div");
+                    tooltip.classList.add("diputado-tooltip");
+                    //diputado-tooltip
+                    tooltip.style.height = `auto`;
+                    let tooltipImg = document.createElement("div");
+                    tooltipImg.classList.add("diputado-tooltip-img");
+                    let img = document.createElement("img");
+                    tooltipImg.appendChild(img);
+                    let numeroBanca = document.createElement("div");
+                    numeroBanca.classList.add("numero-banca");
+                    tooltipImg.appendChild(numeroBanca);
+                    let tooltipInfo = document.createElement("div");
+                    tooltipInfo.classList.add("diputado-tooltip-info");
+                    let tooltipNombre = document.createElement("h5");
+                    tooltipNombre.classList.add("diputado-tooltip-nombre");
+                    let tooltipLeyenda = document.createElement("span");
+                    tooltipLeyenda.classList.add("diputado-tooltip-leyenda");
+                    let div = document.createElement("div");
+                    let mandato = document.createElement("h6");
+                    let bloque = document.createElement("h6");
+                    let distrito = document.createElement("h6");
+                    div.appendChild(mandato);
+                    div.appendChild(bloque);
+                    div.appendChild(distrito);
+                    tooltipInfo.appendChild(tooltipNombre);
+                    tooltipInfo.appendChild(tooltipLeyenda);
+                    tooltipInfo.appendChild(div);
+                    tooltip.appendChild(tooltipImg);
+                    tooltip.appendChild(tooltipInfo);
+                    document.body.appendChild(tooltip);
+                    state.tooltip = tooltip;
+                }
+
+                state.abrirTooltip = (id,e)=>{
+                    e.preventDefault();
+                    e.stopPropagation();
+                    vaciarTooltip();
+
+                    if (state.hemiciclo) {
+                        let diputado = bancas.find(e=>e && e.ID_AUTORIDAD == id);
+                        if (!diputado)
+                            return;
+
+                        llenarTooltipConData(diputado);
+
+                        cambiarPosicionTooltip(e.pageX, e.pageY);
+                    }
+                }
+
+                state.cerrarTooltip = (banca)=>{
+                    vaciarTooltip();
+                }
+
+                const cambiarPosicionTooltip = function(x, y) {
+                    //console.log(`X: ${x} | Y: ${y}`)
+                    const pageX = x;
+                    const pageY = y;
+
+                    const margin = 10;
+
+                    const offsetX = pageX + state.tooltip.offsetWidth + margin > window.innerWidth ? pageX - state.tooltip.offsetWidth - margin : pageX + margin;
+
+                    const offsetY = pageY + state.tooltip.offsetHeight + margin > window.innerHeight ? pageY - state.tooltip.offsetHeight - margin : pageY + margin;
+
+                    state.tooltip.style.left = offsetX + "px";
+                    state.tooltip.style.top = offsetY + "px";
+                }
+
+                const llenarTooltipConData = diputado=>{
+                    state.tooltip.style.display = "grid";
+                    let foto = state.fotos[`${diputado.CUIL}`];
+                    let image = '';
+
+                    if (!foto) {
+                        image = `https://parlamentaria.hcdn.gob.ar/api/v2/fotos/autoridades/${diputado.CUIL}?size=small`;
+                    } else {
+                        image = foto;
+                    }
+
+                    state.tooltip.querySelector("img").setAttribute("style", 'border-radius: 100%;');
+                    state.tooltip.querySelector("img").style.border = `3px solid ${diputado["BLOQUE_COLOR"] || "#a9a9a9"}`;
+                    state.tooltip.querySelector("img").setAttribute("src", image);
+                    state.tooltip.querySelector(".diputado-tooltip-nombre").innerText = `${diputado["APELLIDO_ALIAS"]} ${diputado["NOMBRE_ALIAS"]}`;
+                    state.tooltip.querySelector(".diputado-tooltip-leyenda").innerText = `${diputado["DISPLAY_PDF_WEB"] || ""}`;
+                    //aca va la leyenda
+                    state.tooltip.querySelector("h6:nth-child(1)").innerText = `${diputado["MANDATO"]}`;
+                    state.tooltip.querySelector("h6:nth-child(2)").innerText = `${diputado["BLOQUE_NOMBRE"] || ""}`;
+                    state.tooltip.querySelector("h6:nth-child(3)").innerText = `${diputado["DISTRITO"]}`;
+                    state.tooltip.querySelector(".numero-banca").innerHTML = `<i class="fas fa-chair"></i> ${diputado['BANCA'] || ""}`;
+                }
+
+                const vaciarTooltip = function() {
+                    state.tooltip.style.display = "none";
+                    state.tooltip.querySelector("img").setAttribute("src", "");
+                    state.tooltip.querySelector("img").style.border = "0px";
+                    state.tooltip.querySelector(".diputado-tooltip-nombre").innerText = "";
+                    state.tooltip.querySelector(".diputado-tooltip-leyenda").innerText = "";
+                    state.tooltip.querySelector("h6:nth-child(1)").innerText = "";
+                    state.tooltip.querySelector("h6:nth-child(2)").innerText = "";
+                    state.tooltip.querySelector("h6:nth-child(3)").innerText = "";
+                }
+
+                const armarEntidad = (id,tipo,nombre,cantidad,color)=>{
+                    return {
+                        id: id ? id : -1,
+                        nombre: nombre,
+                        tipo: tipo,
+                        cantidad: cantidad,
+                        color: color ?? '#a9a9a9'
+                    }
+                }
+
+                const insertarBloqueComoEntidad = (entidadComposicion,diputado)=>{
+                    const existeEntidad = entidadComposicion.findIndex(e=>e["id"] == diputado["ID_BLOQUE"] && e["nombre"] == diputado["BLOQUE_NOMBRE"]);
+
+                    if (existeEntidad !== -1) {
+                        entidadComposicion[existeEntidad].cantidad++;
+                    } else {
+                        const index = entidadComposicion.length;
+                        const nombre = diputado["BLOQUE_NOMBRE"] && diputado["BLOQUE_NOMBRE"] !== " " ? diputado["BLOQUE_NOMBRE"] : "Sin bloque";
+                        const color = diputado["BLOQUE_COLOR"];
+                        entidadComposicion[index] = armarEntidad(diputado["ID_BLOQUE"], "b", nombre, 1, color);
+                    }
+                }
+
+                const insertarInterbloqueComoEntidad = (entidadComposicion,diputado)=>{
+                    const existeEntidad = entidadComposicion.findIndex(e=>e["id"] == diputado["ID_INTERBLOQUE"] && e["nombre"] == diputado["INTERBLOQUE_NOMBRE"]);
+
+                    if (existeEntidad !== -1) {
+                        entidadComposicion[existeEntidad].cantidad++;
+
+                        const existeComposicion = entidadComposicion[existeEntidad].composicion.findIndex(e=>e["id"] == diputado["ID_BLOQUE"] && e["nombre"] == diputado["BLOQUE_NOMBRE"]);
+
+                        if (existeComposicion !== -1) {
+                            entidadComposicion[existeEntidad].composicion[existeComposicion].cantidad++;
+                            entidadComposicion[existeEntidad].composicion.sort((a,b)=>b.cantidad - a.cantidad)
+                        } else {
+                            entidadComposicion[existeEntidad].composicion[entidadComposicion[existeEntidad].composicion.length] = armarEntidad(diputado["ID_BLOQUE"], "b", diputado["BLOQUE_NOMBRE"], 1);
+                            entidadComposicion[existeEntidad].composicion.sort((a,b)=>b.cantidad - a.cantidad)
+                        }
+                    } else {
+                        const index = entidadComposicion.length;
+
+                        entidadComposicion[index] = armarEntidad(diputado["ID_INTERBLOQUE"], "i", diputado["INTERBLOQUE_NOMBRE"], 1, diputado['INTERBLOQUE_COLOR']);
+                        entidadComposicion[index].composicion = [armarEntidad(diputado["ID_BLOQUE"], "b", diputado["BLOQUE_NOMBRE"], 1, diputado['BLOQUE_COLOR'])];
+                        entidadComposicion[index].composicion.sort((a,b)=>b.cantidad - a.cantidad)
+                    }
+                }
+
+                const dibujarComposicion = composicion=>{
+                    let html = ``;
+                    if (!composicion)
+                        return;
+
+                    let retorno = composicion.map(cantidad=>{
+                        let html = '';
+                        let conformacion = ``;
+
+                        html += `<div  class="data-composicion">
+                                <div style="width: 50px; height: 20px; background-color: ${cantidad.color};" data-bind="style:{'background-color':interbloque_color}"></div>
+                                <div style="width: 40px; text-align: center">
+                                    <b><span data-bind="text:diputados_cant">${cantidad.cantidad}</span></b>
+                                </div>
+                                <span data-bind="text:interbloque_nombre">${cantidad.nombre}</span>
+                            </div>`
+                        return html;
+                    }
+                    )
+                    let mitad = Math.floor(retorno.length / 2);
+                    document.getElementById("composicion1").innerHTML = retorno.slice(0, mitad).join('');
+                    document.getElementById("composicion2").innerHTML = retorno.slice(mitad + 1, retorno.length).join('');
+                }
+
+                const armarEntidadComposicion = ()=>{
+                    let entidadComposicion = [];
+
+                    bancas.forEach(diputado=>{
+                        if (diputado["ID_INTERBLOQUE"]) {
+                            insertarInterbloqueComoEntidad(entidadComposicion, diputado)
+                        } else {
+                            insertarBloqueComoEntidad(entidadComposicion, diputado)
+                        }
+                    }
+                    )
+
+                    entidadComposicion.sort((a,b)=>b.cantidad - a.cantidad);
+                    dibujarComposicion(entidadComposicion);
+                }
+
+                HCDN.ready(()=>{
+                    descargarFotosDiputados().then((data)=>{
+                        state.hemiciclo = new HemicicloHCDN(document.getElementById('hemiciclo'),{
+                            data: state.butacas,
+                            draw: renderBanca,
+                            zoom: false,
+                            _onFirstLoaded: ()=>{
+                                insertarTooltip();
+                                armarEntidadComposicion();
+                                state.hemicicloCargado = true;
+                            }
+                        });
+                    }
+                    );
+
+                }
+                )
+            }
+        </script>
+    </body>
+</html>

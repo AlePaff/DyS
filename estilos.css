@@ -1,0 +1,158 @@
+
+.hemiciclo {
+    cursor: pointer!important;
+}
+
+.hemiciclo-container {
+    position: absolute;
+    width: 100%;
+    padding: 1rem;
+    top: 0;
+    left: 0;
+}
+
+.hemiciclo-container > .composicion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-inline: 30px; grid-gap: 10px;
+}
+
+.hemiciclo-container > .composicion .data-composicion {
+    display: grid;
+    line-height: 1;
+    grid-template-columns: auto auto 1fr;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.hemiciclo-container > .hemiciclo-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hemiciclo-container > .hemiciclo-actions > .vista-hemiciclo {
+    border-radius: 5px;
+    border: 0;
+    background: #6c97bd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 15px;
+    width: 160px;
+}
+
+.hemiciclo-container > .hemiciclo-actions > .vista-hemiciclo.active {
+    background: #486c8c;
+}
+
+.butaca_circle_div.hcdn-asiento-hemiciclo {
+    background: #a9a9a9;
+}
+
+@media (max-width: 700px) {
+    .hemiciclo-container > .composicion {
+        grid-template-columns: 1fr;
+    }
+
+    .hemiciclo-container > .hemiciclo-actions > .vista-hemiciclo {
+        width: 120px;
+        font-size: 12px;
+    }
+
+    .hemiciclo-container > .composicion {
+        padding-inline: 10px; }
+
+    .hemiciclo-container > .composicion .data-composicion {
+        font-size: 12px;
+    }
+
+    .hemiciclo-container > .composicion .data-composicion > div:first-of-type {
+        width: 30px!important;
+    }
+}
+
+/*=======================TOOLTIP=======================*/
+.diputado-tooltip {
+    width: 300px;
+    height: 135px;
+    display: none;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    background-color: #FFF;
+    z-index: 9999;
+    top: 0px;
+    left: 0px;
+    border-radius: 15px;
+    padding: 10px;
+    column-gap: 10px;
+    box-shadow: 0 0px 6px rgb(0 0 0 / 30%);
+}
+
+.diputado-tooltip > .diputado-tooltip-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.diputado-tooltip > .diputado-tooltip-img > img {
+    border-radius: 50%;
+    border-width: 5px !important;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+.diputado-tooltip > .diputado-tooltip-info {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    align-items: center;
+}
+
+.diputado-tooltip > .diputado-tooltip-info > h5 {
+    margin: 0px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.diputado-tooltip > .diputado-tooltip-info > span {
+    margin: 0px;
+    padding: 3px;
+    font-weight: lighter;
+}
+
+.diputado-tooltip > .diputado-tooltip-info > div > h6 {
+    margin: 0px;
+    padding: 3px;
+    font-weight: lighter;
+}
+
+.diputado-tooltip .separador {
+    width: 100%;
+    height: 2px;
+    background: #d8d8d8;
+    margin-top: 5px;
+}
+
+foreignObject {
+    font-size: 11px;
+    color: #fff;
+}
+
+.data.show {
+    display: none !important;
+}
