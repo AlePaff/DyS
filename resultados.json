@@ -1,0 +1,1544 @@
+[
+  {
+    "DIPUTADO": "AGOST CARREÑO, OSCAR",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Córdoba",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "AGUIRRE, HILDA CLELIA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "La Rioja",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "AGUIRRE, MANUEL IGNACIO",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Corrientes",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "AJMECHET, SABRINA",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "ALDERETE, JUAN CARLOS",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "ALIANIELLO, EUGENIA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Chubut",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "ALLENDE, WALBERTO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "San Juan",
+    "¿CÓMO VOTÓ?": "AUSENTE"
+  },
+  {
+    "DIPUTADO": "ALONSO, CONSTANZA MARIA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "ALVAREZ, FELIPE",
+    "BLOQUE": "Ser - Somos Energia Para Renovar",
+    "PROVINCIA": "La Rioja",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "AMAYA, DOMINGO LUIS",
+    "BLOQUE": "Encuentro Federal",
+    "PROVINCIA": "Tucumán",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "ANGELINI, FEDERICO",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Santa Fe",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "ANTOLA, MARCELA",
+    "BLOQUE": "Evolucion Radical",
+    "PROVINCIA": "Entre Ríos",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "APARICIO, ALICIA N.",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "ARJOL, MARTIN",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Misiones",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "ARRICAU, CAROLINA NATALIA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "ARROYO, DANIEL",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "ASCARATE, LIDIA INES",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Tucumán",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "ASSEFF, ALBERTO",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "AUBONE, ANA FABIOLA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "San Juan",
+    "¿CÓMO VOTÓ?": "AUSENTE"
+  },
+  {
+    "DIPUTADO": "BACHEY, KARINA ETHEL",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "San Luis",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "BALDASSI, HECTOR W.",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Córdoba",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "BANFI, KARINA",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "BARBARO, HECTOR 'CACHO'",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Misiones",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "BARLETTA, MARIO",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Santa Fe",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "BAZZE, MIGUEL ANGEL",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "BENEDETTI, ATILIO",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Entre Ríos",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "BERHONGARAY, MARTIN ANTONIO",
+    "BLOQUE": "Evolucion Radical",
+    "PROVINCIA": "La Pampa",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "BERMEJO, ADOLFO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Mendoza",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "BERTOLDI, TANYA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Neuquén",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "BERTONE, ROSANA ANDREA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Tierra del Fuego",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "BESANA, GABRIELA",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "BORDA, FABIAN ANTONIO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Corrientes",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "BORMIOLI, LISANDRO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "BORREGO, VICTORIA",
+    "BLOQUE": "Coalicion Civica",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "BRAMBILLA, SOFIA",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Corrientes",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "BRAWER, MARA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "BREGMAN, MYRIAM",
+    "BLOQUE": "Pts - Frente De Izquierda Y De Trabajadores - Unidad",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "BRITEZ, MARIA CRISTINA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Misiones",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "BROUWER DE KONING, GABRIELA",
+    "BLOQUE": "Evolucion Radical",
+    "PROVINCIA": "Córdoba",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "BRUE, DANIEL AGUSTIN",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Santiago del Estero",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "BURYAILE, RICARDO",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Formosa",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "CACACE, ALEJANDRO",
+    "BLOQUE": "Evolucion Radical",
+    "PROVINCIA": "San Luis",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "CALIVA, LIA VERONICA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Salta",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "CALLETTI, PAMELA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Salta",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "CAMAÑO, GRACIELA",
+    "BLOQUE": "Identidad Bonaerense",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "CAMPAGNOLI, MARCELA",
+    "BLOQUE": "Coalicion Civica",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "CANTERO, CARLOS",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Jujuy",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "CAPARROS, MABEL LUISA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Tierra del Fuego",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "CARASSO, MARCOS GUSTAVO",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Córdoba",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "CARBAJAL, FERNANDO",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Formosa",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "CARNAGHI, GUILLERMO OSCAR",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Neuquén",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "CARRIZO, ANA CARLA",
+    "BLOQUE": "Evolucion Radical",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "CARRIZO, NILDA MABEL",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Tucumán",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "CARRIZO, SOLEDAD",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Córdoba",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "CARRO, PABLO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Córdoba",
+    "¿CÓMO VOTÓ?": "AUSENTE"
+  },
+  {
+    "DIPUTADO": "CASARETTO, MARCELO PABLO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Entre Ríos",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "CASAS, SERGIO GUILLERMO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "La Rioja",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "CASELLES, GRACIELA MARIA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "San Juan",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "CASTETS, LAURA CAROLINA",
+    "BLOQUE": "Valores Republicanos",
+    "PROVINCIA": "Santa Fe",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "CERVI, PABLO",
+    "BLOQUE": "Evolucion Radical",
+    "PROVINCIA": "Neuquén",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "CHAHER, LEILA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Jujuy",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "CHAHLA, ROSSANA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Tucumán",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "CHOMIAK, MARIA LUISA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Chaco",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "CHUMPITAZ, GABRIEL FELIPE",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Santa Fe",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "CIPOLINI, GERARDO",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Chaco",
+    "¿CÓMO VOTÓ?": "AUSENTE"
+  },
+  {
+    "DIPUTADO": "CISNEROS, CARLOS ANIBAL",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Tucumán",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "CLERI, MARCOS",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Santa Fe",
+    "¿CÓMO VOTÓ?": "AUSENTE"
+  },
+  {
+    "DIPUTADO": "COBOS, JULIO",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Mendoza",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "COLI, MARCELA",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "La Pampa",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "CORNEJO, VIRGINIA",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Salta",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "COSTA, ANAHI",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Catamarca",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "CRESCIMBENI, CAMILA",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "DAIVES, RICARDO DANIEL",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Santiago del Estero",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "DALDOVO, NELLY RAMONA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Formosa",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "DANTAS, PEDRO CRISTIAN",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Rio Negro",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "DE LA SOTA, NATALIA",
+    "BLOQUE": "Cordoba Federal",
+    "PROVINCIA": "Córdoba",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "DE LOREDO, RODRIGO",
+    "BLOQUE": "Evolucion Radical",
+    "PROVINCIA": "Córdoba",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "DE MARCHI, OMAR",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Mendoza",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "DEL CAÑO, NICOLAS",
+    "BLOQUE": "Pts - Frente De Izquierda Y De Trabajadores - Unidad",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "DEL PLA, ROMINA",
+    "BLOQUE": "Partido Obrero – Frente De Izquierda Y De Trabajadores - Unidad",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "DI GIACOMO, LUIS",
+    "BLOQUE": "Juntos Somos Rio Negro",
+    "PROVINCIA": "Rio Negro",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "DOMINGO, AGUSTIN",
+    "BLOQUE": "Juntos Somos Rio Negro",
+    "PROVINCIA": "Rio Negro",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "EL SUKARIA, SOHER",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Córdoba",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "ESPERT, JOSE LUIS",
+    "BLOQUE": "Avanza Libertad",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "ESPIL, SANTIAGO EUGENIO",
+    "BLOQUE": "Coalicion Civica",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "ESTEVEZ, ENRIQUE",
+    "BLOQUE": "Socialista",
+    "PROVINCIA": "Santa Fe",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "ESTEVEZ, GABRIELA BEATRIZ",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Córdoba",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "ESTRADA, EMILIANO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Salta",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "FAGIOLI, FEDERICO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "FEIN, MONICA",
+    "BLOQUE": "Socialista",
+    "PROVINCIA": "Santa Fe",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "FERNANDEZ PATRI, RAMIRO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Formosa",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "FERNANDEZ, AGUSTIN",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Tucumán",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "FERNANDEZ, CARLOS ALBERTO",
+    "BLOQUE": "Frente De La Concordia Misionero",
+    "PROVINCIA": "Misiones",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "FERNANDEZ, EDUARDO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Córdoba",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "FERRARO, MAXIMILIANO",
+    "BLOQUE": "Coalicion Civica",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "FIGUEROA CASAS, GERMANA",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Santa Fe",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "FIGUEROA, ROLANDO",
+    "BLOQUE": "Movimiento Popular Neuquino",
+    "PROVINCIA": "Neuquén",
+    "¿CÓMO VOTÓ?": "AUSENTE"
+  },
+  {
+    "DIPUTADO": "FINOCCHIARO, ALEJANDRO",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "FRADE, MONICA EDITH",
+    "BLOQUE": "Coalicion Civica",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "FRIGERIO, FEDERICO",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Tierra del Fuego",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "GAILLARD, ANA CAROLINA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Entre Ríos",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "GALIMBERTI, PEDRO JORGE",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Entre Ríos",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "GARCIA ARESCA, IGNACIO",
+    "BLOQUE": "Cordoba Federal",
+    "PROVINCIA": "Córdoba",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "GARCIA DE LUCA, SEBASTIAN",
+    "BLOQUE": "Encuentro Federal",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "GARCIA, XIMENA",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Santa Fe",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "GINOCCHIO, SILVANA MICAELA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Catamarca",
+    "¿CÓMO VOTÓ?": "AUSENTE"
+  },
+  {
+    "DIPUTADO": "GIOJA, JOSE LUIS",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "San Juan",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "GODOY, LUCAS JAVIER",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Salta",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "GOLLAN, DANIEL",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AUSENTE"
+  },
+  {
+    "DIPUTADO": "GONZALEZ, ALVARO GUSTAVO",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "GONZALEZ, GUSTAVO CARLOS MIGUEL",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Santa Cruz",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "GROSSO, LEONARDO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AUSENTE"
+  },
+  {
+    "DIPUTADO": "GUTIERREZ, CARLOS MARIO",
+    "BLOQUE": "Cordoba Federal",
+    "PROVINCIA": "Córdoba",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "GUTIERREZ, RAMIRO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "HAGMAN, ITAI",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "HEIN, GUSTAVO RENE",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Entre Ríos",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "HELLER, CARLOS",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "HERNANDEZ, ESTELA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Chubut",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "HERRERA, BERNARDO JOSE",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Santiago del Estero",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "HERRERA, RICARDO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "La Rioja",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "IGLESIAS, FERNANDO ADOLFO",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "IGON, SANTIAGO NICOLAS",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Chubut",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "IPARRAGUIRRE, ROGELIO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "JETTER, INGRID",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Corrientes",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "JOURY, MARIA DE LAS MERCEDES",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "KIRCHNER, MAXIMO CARLOS",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "KLIPAUKA LEWTAK, FLORENCIA",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Misiones",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "LACIAR, SUSANA ALICIA",
+    "BLOQUE": "Produccion Y Trabajo",
+    "PROVINCIA": "San Juan",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "LAMPREABE, FLORENCIA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AUSENTE"
+  },
+  {
+    "DIPUTADO": "LANDRISCINI, SUSANA GRACIELA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Rio Negro",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "LASPINA, LUCIANO ANDRES",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Santa Fe",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "LATORRE, JIMENA",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Mendoza",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "LEDESMA, TOMAS",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Entre Ríos",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "LEITO, MARIO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Tucumán",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "LEIVA, ALDO ADOLFO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Chaco",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "LENA, GABRIELA",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Entre Ríos",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "LITZA, MONICA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "LOMBARDI, HERNAN",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "LOPEZ MURPHY, RICARDO HIPOLITO",
+    "BLOQUE": "Republicanos Unidos",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "LOPEZ RODRIGUEZ, DANTE",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Catamarca",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "LOPEZ, JUAN MANUEL",
+    "BLOQUE": "Coalicion Civica",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "LOSPENNATO, SILVIA GABRIELA",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "MACHA, MONICA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "MANES, FACUNDO",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "MANZI, RUBEN",
+    "BLOQUE": "Coalicion Civica",
+    "PROVINCIA": "Catamarca",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "MAQUIEYRA, MARTIN",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "La Pampa",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "MARIN, VARINIA LIS",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "La Pampa",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "MARINO, JUAN",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "MARTIN, JUAN",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Santa Fe",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "MARTINEZ VILLADA, LEONOR MARIA",
+    "BLOQUE": "Coalicion Civica",
+    "PROVINCIA": "Córdoba",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "MARTINEZ, ALVARO",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Mendoza",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "MARTINEZ, DOLORES",
+    "BLOQUE": "Evolucion Radical",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "MARTINEZ, GERMAN PEDRO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Santa Fe",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "MARTINEZ, MARIA ROSA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "MARZIOTTA, GISELA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "AUSENTE"
+  },
+  {
+    "DIPUTADO": "MASIN, MARIA LUCILA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Chaco",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "MASSETANI, VANESA LAURA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Santa Fe",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "MASTALER, MAGALI",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Santa Fe",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "MILEI, JAVIER GERARDO",
+    "BLOQUE": "La Libertad Avanza",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "MILMAN, GERARDO",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "MIRABELLA, ROBERTO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Santa Fe",
+    "¿CÓMO VOTÓ?": "AUSENTE"
+  },
+  {
+    "DIPUTADO": "MOISES, MARIA CAROLINA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Jujuy",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "MONTI, FRANCISCO",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Catamarca",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "MONTOTO, MARIA LUISA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Santiago del Estero",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "MONZO, EMILIO",
+    "BLOQUE": "Encuentro Federal",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "MORALES GORLERI, VICTORIA",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "MORAN, MICAELA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "MOREAU, CECILIA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "PRESIDENTE"
+  },
+  {
+    "DIPUTADO": "MOREAU, LEOPOLDO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "MOYANO, NILDA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Santiago del Estero",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "NANNI, MIGUEL",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Salta",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "NAVARRO, GRACIELA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Santiago del Estero",
+    "¿CÓMO VOTÓ?": "AUSENTE"
+  },
+  {
+    "DIPUTADO": "NEDER, ESTELA MARY",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Santiago del Estero",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "NEGRI, MARIO RAUL",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Córdoba",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "NIERI, LISANDRO",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Mendoza",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "NUÑEZ, JOSE CARLOS",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Santa Fe",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "OBEID, ALEJANDRA DEL HUERTO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Santa Fe",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "OCAÑA, GRACIELA",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "OLIVETO LAGO, PAULA",
+    "BLOQUE": "Coalicion Civica",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "OMODEO, PAULA",
+    "BLOQUE": "Creo",
+    "PROVINCIA": "Tucumán",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "ORMACHEA, CLAUDIA BEATRIZ",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "ORREGO, HUMBERTO MARCELO",
+    "BLOQUE": "Produccion Y Trabajo",
+    "PROVINCIA": "San Juan",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "OSUNA, BLANCA INES",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Entre Ríos",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "PALAZZO, SERGIO OMAR",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AUSENTE"
+  },
+  {
+    "DIPUTADO": "PAPONET, LILIANA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Mendoza",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "PAROLA, MARIA GRACIELA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Formosa",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "PASSO, MARCELA FABIANA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "PEDRALI, GABRIELA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "La Rioja",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "PEDRINI, JUAN MANUEL",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Chaco",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "PENACCA, PAULA ANDREA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "PEREYRA, JULIO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "PEREZ ARAUJO, HERNAN",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "La Pampa",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "PEREZ PLAZA, EBER ALBANO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Mendoza",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "PIPARO, CAROLINA",
+    "BLOQUE": "Buenos Aires Libre",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "POGGI, CLAUDIO JAVIER",
+    "BLOQUE": "Avanzar San Luis",
+    "PROVINCIA": "San Luis",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "POLINI, JUAN CARLOS",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Chaco",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "PONCE, CARLOS YBRHAIN",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "San Luis",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "PROPATO, AGUSTINA LUCRECIA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "QUETGLAS, FABIO JOSE",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "QUIROZ, MARILU",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Chaco",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "RANDAZZO, FLORENCIO",
+    "BLOQUE": "Identidad Bonaerense",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "REY, MARIA LUJAN",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "REYES, ROXANA",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Santa Cruz",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "REZINOVSKY, DINA",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "RITONDO, CRISTIAN ADRIAN",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "RIZZOTTI, JORGE",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Jujuy",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "RODRIGUEZ MACHADO, LAURA",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Córdoba",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "RODRIGUEZ, ALEJANDRO \"TOPO",
+    "BLOQUE": "Identidad Bonaerense",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "ROMERO, ANA CLARA",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Chubut",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "ROMERO, JORGE ANTONIO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Corrientes",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "ROMERO, VICTOR HUGO",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Córdoba",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "RUARTE, ADRIANA NOEMI",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Córdoba",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "SALVADOR, SEBASTIAN NICOLAS",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "SANCHEZ, FRANCISCO",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Neuquén",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "SANCHEZ, ROBERTO ANTONIO",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Tucumán",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "SAND, NANCY",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Corrientes",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "SANTILLI, DIEGO",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "SANTORO, LEANDRO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "SARAPURA, NATALIA SILVINA",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Jujuy",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "SARTORI, DIEGO HORACIO",
+    "BLOQUE": "Frente De La Concordia Misionero",
+    "PROVINCIA": "Misiones",
+    "¿CÓMO VOTÓ?": "AUSENTE"
+  },
+  {
+    "DIPUTADO": "SCHIAVONI, ALFREDO OSCAR",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Misiones",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "SELVA, CARLOS AMERICO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "SILEY, VANESA RAQUEL",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "SOTOLANO, MARIA",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "SOUTO, NATALIA MARCELA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "STEFANI, HECTOR ANTONIO",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Tierra del Fuego",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "STILMAN, MARIANA",
+    "BLOQUE": "Coalicion Civica",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "STOLBIZER, MARGARITA",
+    "BLOQUE": "Encuentro Federal",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "TACCETTA, MATIAS",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Chubut",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "TAILHADE, RODOLFO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "TAVELA, DANYA",
+    "BLOQUE": "Evolucion Radical",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "TEJEDA, MARIA VICTORIA",
+    "BLOQUE": "Evolucion Radical",
+    "PROVINCIA": "Santa Fe",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "TETAZ, MARTIN ALBERTO",
+    "BLOQUE": "Evolucion Radical",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "TONELLI, PABLO GABRIEL",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "TONIOLLI, EDUARDO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Santa Fe",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "TORELLO, PABLO",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "TORTORIELLO, ANIBAL",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "Rio Negro",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "UCEDA, MARISA LOURDES",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Mendoza",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "VALDES, EDUARDO FELIX",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "VARA, JORGE",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Corrientes",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "VARGAS MATYI, BRENDA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "VERASAY, PAMELA FERNANDA",
+    "BLOQUE": "Ucr",
+    "PROVINCIA": "Mendoza",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "VERON, JORGE GUILLERMO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Santa Cruz",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "VESSVESSIAN, PAOLA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Santa Cruz",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "VIDAL, CLAUDIO ORLANDO",
+    "BLOQUE": "Ser - Somos Energia Para Renovar",
+    "PROVINCIA": "Santa Cruz",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "VIDAL, MARIA EUGENIA",
+    "BLOQUE": "Pro",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "VILCA, ALEJANDRO",
+    "BLOQUE": "Pts - Frente De Izquierda Y De Trabajadores - Unidad",
+    "PROVINCIA": "Jujuy",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "VILLARRUEL, VICTORIA",
+    "BLOQUE": "La Libertad Avanza",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "YACOBITTI, EMILIANO BENJAMIN",
+    "BLOQUE": "Evolucion Radical",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "YAMBRUN, LILIANA PATRICIA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "YAPOR, LUCIO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "YASKY, HUGO",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "YUTROVIC, CAROLINA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Tierra del Fuego",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "ZABALA CHACUR, NATALIA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "San Luis",
+    "¿CÓMO VOTÓ?": "AUSENTE"
+  },
+  {
+    "DIPUTADO": "ZAPATA, CARLOS RAUL",
+    "BLOQUE": "Ahora Patria",
+    "PROVINCIA": "Salta",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  },
+  {
+    "DIPUTADO": "ZARACHO, NATALIA",
+    "BLOQUE": "Frente De Todos",
+    "PROVINCIA": "Buenos Aires",
+    "¿CÓMO VOTÓ?": "AFIRMATIVO"
+  },
+  {
+    "DIPUTADO": "ZUVIC, MARIANA",
+    "BLOQUE": "Coalicion Civica",
+    "PROVINCIA": "C.A.B.A.",
+    "¿CÓMO VOTÓ?": "NEGATIVO"
+  }
+]
