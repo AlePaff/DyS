@@ -1,0 +1,13 @@
+{
+    "name": "Recinto votaciones",
+    "version": "0.1.0",
+    "description": "Ver las votaciones de diputados y senadores para leyes de forma visual en el recinto junto al resultado de cada diputado y senador",
+    "author": "apaff",
+    "host_permissions": [
+        "https://votaciones.hcdn.gob.ar/"
+    ],
+    "permissions": [
+        "tabs"
+    ],
+    "manifest_version": 3
+}
