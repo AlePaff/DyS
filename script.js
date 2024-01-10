@@ -9,7 +9,21 @@ Senadores
 https://www.senado.gob.ar/senadores/listados/listaSenadoRes
 https://www.senado.gob.ar/votaciones/detalleActa/2418
 
- */
+ 
+
+
+
+
+Es tan facil como cambiar las propiedades del css y los colores en base a la info de los datos
+    poner un background y con transparencia en la imagen
+mapear candidato y que tipo de voto tuvo. 
+arreglar para que no cargue siempre las imagenes desde cero
+sistema que haga un scrapping de la pagina de diputados y sus votos, enlistar ésta info. 
+    probar usar la api y si sigue vigente
+
+
+Ver si se puede usar la librería pero para los senadores, en caso contrario hacerla con mi programa
+*/
 
 
 
