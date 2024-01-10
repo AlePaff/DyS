@@ -195,6 +195,7 @@
         <script src="https://parlamentaria.hcdn.gob.ar/public/js/app.js?v20221002"></script>
         <script src="https://parlamentaria.hcdn.gob.ar/public/libs/hemicicloHCDN_2/hemicicloHCDN.min.js"></script>
         <script src="bancas.js"></script>
+        <!-- las bancas se encontraban hardcodeadas en el html -->
         <script>
             HCDN.state = new function() {
                 const state = this;
@@ -519,6 +520,20 @@
                 }
                 )
             }
+
+
+            
+            bancas.forEach(diputado=>{
+                    state.butacas[diputado.BANCA] = diputado;
+                }
+                );
+
+                
+                fetch('resultados.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log(data);
+                    });
         </script>
     </body>
 </html>
